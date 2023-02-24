@@ -1,0 +1,28 @@
+.container {
+padding: 20px;
+display: flex;
+justify-content:flex-end;
+position: fixed;
+z-index: 50;
+top:0;
+left: 0;
+right: 0;
+background-color: rgba(0, 0, 0, 0.623);
+}
+
+.img {
+position: absolute;
+width: 200px;
+height: 100px;
+z-index: 99;
+left: 1%;
+top: -20%;
+}
+
+.child {
+color: rgb(26, 235, 113);
+font-size: 18px;
+align-content: center;
+text-decoration: none; 
+padding: 0px 10px;
+}

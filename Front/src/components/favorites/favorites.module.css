@@ -1,0 +1,49 @@
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    /* color: rgb(26, 235, 113); */
+}
+
+.cont {
+    margin-top: 60px;
+}
+
+.container { /*contenedor de la tarjeta*/
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin: 30px;
+    background-color: rgba(0, 0, 0, 0.623);
+    width: 200px;
+    width: auto;
+    height: auto;
+}
+
+.name { /*nombre tarjeta*/
+    font-size: 1.5em;
+    color: rgb(26, 235, 113);
+}
+
+.select { /*boton filtro*/
+    margin-right: 10px;
+    background-color: rgba(0, 0, 0, 0.623);
+    border-radius: 5px;
+    border: none;
+    color: rgb(26, 235, 113);
+    padding: 5px 32px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.buttonFav {
+    font-size: 2em;
+    background:transparent;
+    border:none; 
+    position : absolute;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.img{
+    border-radius: 500px;
+}

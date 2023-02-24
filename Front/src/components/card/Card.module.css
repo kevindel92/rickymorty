@@ -1,0 +1,69 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.containerTwo { /*contenedor de la tarjeta*/
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.623);
+    border-radius: 20px;
+    margin: 30px;   
+    margin-top: 70px;
+    width: auto;
+    height: auto;
+}
+
+.buttonFav {
+    font-size: 2em;
+    background:transparent;
+    border:none; 
+    left: 5%;
+    position : absolute;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.button {
+    margin-top : 0.3em;
+    font-size: 1.5em;
+    background-color: rgba(0, 0, 0, 0.623);
+    border-radius: 7px;
+    opacity: 0.8;
+    color: rgb(26, 235, 113);
+    border:none; 
+    right: 5%;
+    position : absolute;
+    z-index: 1;
+}
+
+.button > .close {
+    display: none; 
+    cursor: pointer;
+}
+.button:hover > .x {
+    display: none;
+    
+}
+.button:hover > .close { 
+    display: inline;       
+}
+
+.button:hover {
+    margin-left : 15vw; 
+    opacity: 1;
+}
+
+.img { /* imagen de la tarjeta */
+    width: 290px;
+    border-radius: 300px;
+}
+
+.name { /* nombre de la tarjeta */
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 60%;
+    color: rgb(26, 235, 113);
+    background-color: rgba(0, 0, 0, 0.623);
+}
